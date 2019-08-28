@@ -1,0 +1,87 @@
+.centerIt{
+	max-width: 100%;
+	text-align: center;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding : 30px 50px 30px 50px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+}
+
+.center{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.logo-container{
+	display:flex;
+	flex-direction: row;
+	max-width: 100%;
+}
+
+.achraf{
+	width: 200px;
+	height: 200px;
+	margin-right: 50px;
+}
+
+
+.souhaib{
+	width: 200px;
+	height: 200px;
+	padding:;
+	margin-left: 50px;
+}
+
+h1, p, h2{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #097083;
+}
+
+input{
+	font-family: 'Raleway', sans-serif;
+	height: 37px;
+	padding-left: 12px; 
+	border-radius: 25px;
+	border: 2.8px solid #097083;
+	width: 800px;
+	color: #097083;
+	font-style: bold;
+	outline: none;
+}
+
+input[type="text"] {
+             display: block;
+             margin : 0 auto;
+        }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #097083;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #097083;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #097083;
+}
+
+p{
+	display: block;
+	font-size: 22px;
+	margin-left:auto;
+  	margin-right:auto;
+  	width: 700px;
+  	word-wrap:break-word;
+}
